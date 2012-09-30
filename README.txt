@@ -11,7 +11,7 @@ Passwordless disables the password fields in user-registration and user-profile 
 1. the system takes care of creating a password for new users
 2. there's no longer a requirement for users to reenter their current password when they enter a new e-mail address in their profile.
 
-Due to point number 2, Passwordless depends on [Email Change Confirmation](http://drupal.org/project/email_confirm), at least until [#85494] is resolved.
+Due to point number 2, Passwordless depends on [Email Change Confirmation](http://drupal.org/project/email_confirm), at least until [#85494] is resolved. Make sure you save settings at admin/config/people/email_confirm, including the "From" address, for the module to work properly.
 
 ### Due credit
 
