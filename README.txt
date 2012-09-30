@@ -4,6 +4,15 @@ Every time a user needs to log in, only the e-mail address is required. The logi
 
 Passwordless disables the password-reset form, and changes the relevant settings at admin/config/people/accounts. Uninstalling the module will restore everything to the way it was before (including the settings). It's also compatible with other login-enhancing modules, like [LoginToboggan](http://drupal.org/project/logintoboggan).
 
+### Note
+
+Passwordless disables the password fields in user-registration and user-profile forms, which means that:
+
+1. the system takes care of creating a password for new users
+2. there's no longer a requirement for users to reenter their current password when they enter a new e-mail address in their profile.
+
+Due to point number 2, Passwordless depends on [Email Change Confirmation](http://drupal.org/project/email_confirm), at least until [#85494] is resolved.
+
 ### Due credit
 
 Passwordless follows the idea behind [NoPassword](https://nopassword.alexsmolen.com), but is all based on Drupal's native functionality and code.
