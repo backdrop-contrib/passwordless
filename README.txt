@@ -13,6 +13,10 @@ Passwordless disables the password fields in user-registration and user-profile 
 
 Due to point number 2, Passwordless depends on [Email Change Confirmation](http://drupal.org/project/email_confirm), at least until [#85494] is resolved. Make sure you save settings at admin/config/people/email_confirm, including the "From" address, for the module to work properly.
 
+### Settings
+
+Passwordless settings can be found at admin/config/system/passwordless. For the moment, the only setting concerns whether or not a help link is provided on the login form (and, consequently, whether the help page exists at all), and the text of the help link. A small CSS file is loaded on the login page only if help is turned on.
+
 ### Due credit
 
 Passwordless follows the idea behind [NoPassword](https://nopassword.alexsmolen.com), but is all based on Drupal's native functionality and code.
