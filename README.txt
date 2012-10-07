@@ -24,6 +24,3 @@ Enabling [HTML5 Tools](http://drupal.org/project/html5_tools) is encouraged for 
 ### Due credit
 
 Passwordless follows the idea behind [NoPassword](https://nopassword.alexsmolen.com), but is all based on Drupal's native functionality and code.
-
-### Disclaimer
-This is still an experimental module, and using it on production sites is not recommended.
