@@ -15,7 +15,7 @@ Due to point number 2, Passwordless depends on [Email Change Confirmation](http:
 
 ### Settings
 
-Passwordless settings can be found at admin/config/system/passwordless. For the moment, the only setting concerns whether or not a help link is provided on the login form (and, consequently, whether the help page exists at all), and the text of the help link. A small CSS file is loaded on the login page only if help is turned on.
+Passwordless settings can be found at admin/config/system/passwordless.
 
 ### Suggested module
 
