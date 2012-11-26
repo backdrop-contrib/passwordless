@@ -17,7 +17,9 @@ Due to point number 2, Passwordless depends on [Email Change Confirmation](http:
 
 Passwordless settings can be found at admin/config/system/passwordless.
 
-### Suggested module
+### Suggested modules
+
+[Email Registration](http://drupal.org/project/email_registration) is recommended, to allow users to register just with their e-mail address, without providing a user name.
 
 Enabling [HTML5 Tools](http://drupal.org/project/html5_tools) is encouraged for HTML5 sites, since it allows Passwordless to produce an HTML5-compliant `type="email"` field in login forms. Without HTML5 Tools, a regular text field will be produced.
 
