@@ -1,7 +1,7 @@
 Passwordless
 ============
 
-This module replaces the regular Drupal login form with a modification of the password-
+This module replaces the regular login form with a modification of the password-
 request form, to give the possibility to log in without using a password.
 
 Every time a user needs to log in, only the e-mail address is required. The login link 
