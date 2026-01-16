@@ -35,7 +35,7 @@ Passwordless settings can be found at `admin/config/system/passwordless`.
 Current Maintainers
 -------------------
 
-- [Herb v/d Dool](https://github.com/herbdool/)
+- [Alan Mels](https://github.com/alanmels)
 - Seeking co-maintainers.
 
 Credits
